@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.studyjamscn.s1.sj41.guofengcheng.IntroActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="196dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/honor"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:fontFamily="sans-serif"
+            android:layout_alignParentBottom="true"
+            android:textColor="#ffffff"
+            android:textStyle=""
+            android:textSize="22sp"
+            android:text="Honor / 荣誉"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20sp"
+        android:text="@string/honor"/>
+
+</LinearLayout>

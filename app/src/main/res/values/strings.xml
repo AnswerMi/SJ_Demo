@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GuoFengCheng</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro1">斯蒂芬·库里——NBA现役球员，金州勇士队当家球星，2009年选秀进入NBA如今成为联盟最炙手可热的招牌人物，打球风格极富观赏性，无比精准的投篮能力和娴熟的运球技巧使得他成为球场上最华丽的攻击手。</string>
+    <string name="intro2">而最为球迷所称道和赞赏的当属他的三分球能力，他是第一位把三分球的射程从三分线再向外延长的球员，而出手速度之快更是让防守者无可奈何，这个赛季他投进了402计三分球，要知道在他之前整个NBA历史单季三分球记录还不超过260个。</string>
+    <string name="intro3">正因如此，斯蒂芬·库里在全球拥有大量的球迷，同样的在中国，正因为库里长着一副“娃娃脸”，中国的球迷为他取了“萌神”、“小学生”等亲切的称号，也使得他与其他受欢迎球星不同的是拥有大量的女球迷。</string>
+    <string name="honor">2015年对史蒂芬·库里而言是丰收的一年，他获得了代表着联盟最高荣誉的MVP（最有价值球员）奖项，并带领金州勇士队获得2014~2015赛季的NBA总冠军，一跃成为历史级别的伟大球星。</string>
+    <string name="now">目前2015~2016赛季的季后赛正在进行中，史蒂芬·库里正带领着金州勇士队再一次向总冠军发起冲击，不好的消息是目前史蒂芬·库里正在遭受膝盖和脚踝伤势的影响，但是我们依然期待着他再一次创造奇迹。</string>
+
+</resources>

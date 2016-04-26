@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="cn.studyjamscn.s1.sj41.guofengcheng.MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/who_is_sc" />
+
+        <TextView
+            android:id="@+id/tvTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="Stephen"
+            android:textColor="#ffeb3b"
+            android:textSize="36sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/tvTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTitle1"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif"
+            android:text="Curry"
+            android:textColor="#ffeb3b"
+            android:textSize="36sp"
+            android:textStyle="italic|bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnIntro"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:fontFamily="sans-serif"
+                android:text="Intro"
+                android:textAllCaps="false"
+                android:textColor="#ffeb3b"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="2px"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:background="#ffeb3b" />
+
+            <Button
+                android:id="@+id/btnHonor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:fontFamily="sans-serif"
+                android:text="Honor"
+                android:textAllCaps="false"
+                android:textColor="#ffeb3b"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="2px"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:background="#ffeb3b" />
+
+            <Button
+                android:id="@+id/btnNow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:fontFamily="sans-serif"
+                android:text="Now"
+                android:textAllCaps="false"
+                android:textColor="#ffeb3b"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
+
